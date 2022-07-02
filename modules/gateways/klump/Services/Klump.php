@@ -65,7 +65,7 @@ class Klump
 
     /**
      * Gets invoice with currency. This is used to balance currency on
-     * WHMCS and LazerPay.
+     * WHMCS and Klump.
      *
      * @param $invoiceId
      *
@@ -155,7 +155,7 @@ class Klump
     }
 
     /**
-     * Checks convert to Currency is set on WHMCS admin for LazerPay
+     * Checks convert to Currency is set on WHMCS admin for Klump
      *
      * @return mixed
      */
@@ -198,7 +198,7 @@ class Klump
     }
 
     /**
-     * Checks LazerPay is active
+     * Checks Klump is active
      *
      * @return mixed
      */
@@ -207,7 +207,7 @@ class Klump
     }
 
     /**
-     * Checks LazerPay is not active
+     * Checks Klump is not active
      *
      * @return bool
      */
